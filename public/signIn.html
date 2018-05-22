@@ -33,9 +33,19 @@
   <body>
     <div id="message">
       <!-- <h2>Shotgun Job Search</h2> -->
-      <h1>Shotgun Job Search</h1>
+      <h1>Shotgun Job Search Sign In</h1>
       <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="/signIn.html">Get Started</a>
+      <form action="/action_page.php">
+        <p>First name: <input type="text" name="fname"></p><br>
+      <p>Last name: <input type="text" name="lname"></p><br>
+        <input type="submit" value="Submit">
+      </form>
+      
+      <a target="_blank" href="/index.html">Sign In</a>
+      <div><br></div>
+      <a target="_blank" href="/index.html">Create Account</a>
+      <div><br></div>
+      <a target="_blank" href="/index.html">Reset Password</a>
     </div>
     <p id="load">Firebase SDK Loading&hellip;</p>
     <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
